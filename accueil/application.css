@@ -1,0 +1,119 @@
+body{
+    margin: 0px;
+    background-color: black;
+    color: white;
+
+    font-family: Roboto;
+}
+
+header{
+    display: flex;
+    background-color: rgb(26,26,26);
+    font-weight: bold;
+}
+
+header div{
+    margin-top: 5px;
+    margin-left: 10px;
+    text-align: center;
+    font-size: small;
+}
+
+.nav-list{
+    font-size:large;
+    margin-top: 15px;
+    display: flex;
+    cursor:pointer;
+    list-style: none;
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 20px 30px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: rgb(160,169,168)    ;
+}
+
+.nav-list li a:hover {
+    color: white;
+}
+
+.nav-cours{
+    background-color:rgb(126,217,88);
+    padding: 10px 15px ;
+}
+
+main{
+    text-align: center;
+    /* width: 50%; */
+}
+
+h1{
+    font-size: 250%;
+}
+
+h2{
+    font-size: 200%;
+}
+
+p{
+    font-size: 150%;
+}
+
+button{
+    background-color: white;
+    padding: 15px 100px;
+    border-radius: 50px;
+    font-size: 150%;
+    cursor: pointer;
+}
+
+.cours{
+    padding: 10px;
+    background-image: url("image/background-blue.png") ;
+    background-size: 10px;
+}
+
+.terminal{
+    background-color: rgb(34,34,34);
+    border-radius: 5px;
+    width: 600px;
+}
+
+.terminal-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    color: rgb(160,160,160);
+
+}
+
+.terminal-name{
+    margin-left: 2px;
+}
+
+.terminal-buttons{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100px;
+}
+
+.terminal-button{
+    background-color: rgb(160,160,160);
+
+    width: 10px;
+    border-radius: 100%;
+    padding:5px;
+}
+
+.terminal-text{
+    color: rgb(160,160,160);
+    background-color: black;
+}
+
+.terminal-footer{
+    height: 30px;
+}
