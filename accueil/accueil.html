@@ -2,7 +2,7 @@
 <html>
 <head>
   <link rel="stylesheet" type="text/css" href="application.css"> 
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">   <title>Page d'accueil</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> 
 </head>
 <body>
     <header>
@@ -33,9 +33,9 @@
 
             <h1>&lt;myBlog&gt;</h1>
     
-            <h2>La plateforme d'apprentissage du code.</h2>
+            <h2 style="margin: 20px 0px;">La plateforme d'apprentissage du code.</h2>
     
-            <p>Apprenez la programmation et le métier de dev grâce à nos cours et ressources</p>
+            <h3 style="margin: 20px 0px;">Apprenez la programmation et le métier de dev grâce à nos cours et ressources</h3>
         
             <button class="button-cours" >Découvrez nos cours  <img src="./image/cartable.png"/></button>
             
@@ -49,7 +49,7 @@
 
             <div class="terminal">
                 <div class="terminal-header">
-                    <span class="terminal-name">Terminal</span>
+                    <span class="terminal-name"style="color:rgb(230, 229, 229);">Terminal</span>
                     <div class="terminal-buttons">
                         <span class="terminal-button"> </span>
                         <span class="terminal-button"> </span>
@@ -57,11 +57,10 @@
                     </div>
                 </div>
 
-                <div class="terminal-text">
+                <div class="terminal-text" style="color:rgb(230, 229, 229);">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum dolorem velit magnam aut, nesciunt dicta officia excepturi laudantium delectus eligendi doloremque enim illum. Voluptate temporibus earum dolores ipsam ut eum. <br/>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt quibusdam molestias dolorem. Tempora molestias inventore velit quasi sint eaque nostrum odio illo aliquam architecto est, ipsa dolorem placeat praesentium error.<br/>
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis, minus esse facere reprehenderit at atque eius, doloremque voluptates ea incidunt voluptatibus ratione quae sed corrupti obcaecati, expedita ad sunt quos. <br/>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed cum eaque quos, deleniti libero fuga quaerat repellat adipisci ad perspiciatis cumque animi consequuntur ipsum in nam a culpa minima saepe.
                 </div>
 
                 <div class="terminal-footer"></div>
@@ -70,7 +69,7 @@
         </section>
 
         <section class="cours-abonnement">
-            <h1 class="cours-abonnement-legend">Les Cours</h1>
+            <h1 class="cours-abonnement-titre">Les Cours</h1>
             <h2 class="cours-abonnement-soustitre">Un abonnement unique</h2>
         
             <table class="cours-abonnement-tableau">
@@ -142,10 +141,95 @@
 
                 </tbody>
             </table>
+
+            <button class="button-voir-cours" >Voir tous les cours</button>
+
         </section>
+         
+        <section class="ressources">
+            <h1 class="ressources-titre">Les Ressources</h1>
+            <h2 class="ressources-soustitre">Gratuites</h2>
         
+            <div class="ressources-list">
+                <div class="ressources-newsletter">
+                    <img src="./image/enveloppe-ouverte.png" />
+                
+                    <div class="ressources-vignettes-titre">Newsletter ></div>
+                    <div class="ressources-vignettes-soustitre">Toutes les semaines</div>
+                </div>
+                
+                <div class="ressources-blog">
+                    <img src="./image/application.png" />
+
+                    <div class="ressources-vignettes-titre">Blog ></div>
+                    <div class="ressources-vignettes-soustitre">350+ articles</div>
+                </div>
+
+                <div class="ressources-podcasts">
+                    <img src="./image/micro.png" />
+
+                    <div class="ressources-vignettes-titre">Podcasts ></div>
+                    <div class="ressources-vignettes-soustitre">30+ épisodes</div>
+                </div>
+
+                <div class="ressources-videos">
+                    <img src="./image/video.png" />
+
+                    <div class="ressources-vignettes-titre">Vidéos ></div>
+                    <div class="ressources-vignettes-soustitre">Découvrez Codeflix</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="blog">
+            <h1 class="blog-titre">Le Blog</h1>
+
+            <img src="./image/application.png" style="margin: 20px ;" />
+
+            <div class="blog-text">
+                <p>Découvrir de nouveaux sujets, de nouvelles technologies, mettre en place une veille et <b>s'améliorer de jour en jour ne devrait être ni compliqué, ni payant.</b></p>
+                <p>Voilà pourquoi <b>notre blog est mis à jour chaque semaine !</b></p>    
+
+                <button class="button-blog" >Lire le blog <img src="./image/des-lunettes-de-soleil.png"/></button>
+
+                <div class="button-blog-legend">+ de 12 000 lecteurs/mois</div>
+
+            </div>
+            
+        </section>
+
     </main>
 
+    <footer>
+        <div class="logo-footer">
+            <img src="./image/icon-mini.png"/>
+            <p>&lt;myBlog&gt;</p>
+        </div>
+
+        <div class="contact footer-text" style="text-align: center;">
+            <p>Mentions légales</p>
+            <p>Conditions générales de vente</p>
+            <p>A propos</p>
+            <p>Nous contacter</p>
+        </div>
+
+        <div class="articles footer-text">
+            <p>Les 4 axes d'apprentissage d'un dev</p>
+            <p>Les outils pour visualiser du JSON en graphe</p>
+            <p>Préparer les tâches pour intégrer un dev junior</p>
+            <p>Préparer les taches pour intégrer un dev junior</p>
+        </div>
+        
+        <div class="footer-lien">
+            <div class="footer-reseaux">
+                <img src="./image/youtube.png"/>
+                <img src="./image/twitter.png"/>
+                <img src="./image/linkedin.png"/>
+                <img src="./image/twitch.png"/>
+            </div>
+        </div>
+
+    </footer>
     
 </body>
 </html>

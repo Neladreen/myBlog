@@ -1,4 +1,4 @@
-@media screen and (max-width:600px) {
+@media screen and (max-width:700px) {
     .accueil{
         margin-left: auto;
         margin-right: auto;
@@ -9,8 +9,14 @@ body{
     margin: 0px;
     background-color: black;
     color: white;
-
     font-family: Roboto;
+}
+
+button{
+    display: flex;
+    gap:0.5em;
+    background-color: white;
+    cursor: pointer;
 }
 
 header{
@@ -58,36 +64,40 @@ main{
 }
 
 .accueil{
-    width: 600px;
+    width: 500px;
     margin-left: auto;
     margin-right: auto;
 }
 
 h1{
-    margin: 0;
-    padding: 20px;
+    margin: 0;  
+    padding-top: 20px;
     font-size: 300%;
-    font-weight: 700;
+    font-weight: 800;
 }
 
 h2{
+    margin: 0;
     font-size: 200%;
 }
 
 h3{
-    font-size: 200%;
+    font-size: 150%;
+    margin: 0;
 }
 
 p{
-    font-size: 150%;
+    font-size: 90%;
+    margin: 0;
 }
 
-button{
+.button-cours{
     background-color: white;
-    padding: 15px 100px;
+    padding: 15px 70px;
     border-radius: 50px;
     font-size: 150%;
-    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* animation flèche */
@@ -95,13 +105,17 @@ button{
 .cours-terminal{
     padding: 10px;
     background-image: url("image/background-blue.png") ;
-    background-size: 10px;
+    background-size: 15px;
+}
+
+.cours-terminal-legend{
+    padding: 20px;
 }
 
 .terminal{
     background-color: rgb(34,34,34);
     border-radius: 10px;
-    width: 600px;
+    width: 500px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 100px;
@@ -152,10 +166,14 @@ button{
 .cours-abonnement{
     background-color: white;
     color: black;
+    padding-bottom: 20px;
+}
+.cours-abonnement-titre{
+    padding: 20px;
 }
 
 .cours-abonnement-soustitre{
-    font-weight: 100;
+    font-weight: 300;
 }
 
 .cours-abonnement-tableau{
@@ -191,6 +209,7 @@ button{
 
 .cours-abonnement-tableau-legend{
     font-size: 68%;
+    color: rgb(95, 95, 95);
 }
 
 .cours-abonnement-tableau-case span{
@@ -200,9 +219,92 @@ button{
     font-size: 70%;
     color: white;
     background-color: rgb(199, 33, 33);
-    padding-right: 10px;
-    padding-left: 10px;
-    padding-top: 1px;
-    padding-bottom: 1px;
+    padding: 1px 10px;
     border-radius: 15px;
+}
+
+.button-voir-cours{
+    background-color: rgb(34,34,34);
+    color: white;
+    font-weight: 700;
+    font-size: 105%;
+    padding: 15px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.ressources{
+    background-image: url("image/background-blue.png") ;
+    background-size: 15px;
+    padding-bottom: 30px;
+}
+
+.ressources-titre{
+    padding-top: 20px;
+}
+
+.ressources-soustitre{
+    font-size: medium;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.ressources-list{
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+
+.ressources-vignettes-titre{
+    font-size: 120%;
+    margin-bottom: 5px;
+}
+
+.ressources-vignettes-soustitre,.button-blog-legend{
+    font-size: 68%;
+    font-style: italic;
+}
+
+.blog{
+    padding-bottom: 30px;
+}
+
+.blog-text{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blog-text p{
+    margin: 15px 0;
+}
+
+.button-blog{
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 500;
+    padding: 7px 15px;
+    border-radius: 3px;
+}
+
+footer{
+    background-color: rgb(26,26,26);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-footer{
+    text-align: center;
+}
+
+.footer-text{
+    font-size: small;
+    margin: 10px;
+}
+
+.footer-reseaux{
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
 }
