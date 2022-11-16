@@ -2,8 +2,7 @@
 <html>
 <head>
   <link rel="stylesheet" type="text/css" href="application.css"> 
-  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
-  <title>Page d'accueil</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">   <title>Page d'accueil</title>
 </head>
 <body>
     <header>
@@ -41,12 +40,12 @@
             <button class="button-cours" >Découvrez nos cours  <img src="./image/cartable.png"/></button>
             
             <div class="arrow">
-                <img src="./image/fleche.png" />
+                <img class= "arrow" src="./image/fleche.png" />
             </div>
         </section>
         
-        <section class="cours">
-            <h1 class="cours-legend">Apprendre, découvrir, expérimenter</h1>
+        <section class="cours-terminal">
+            <h1 class="cours-terminal-legend">Apprendre, découvrir, expérimenter.</h1>
 
             <div class="terminal">
                 <div class="terminal-header">
@@ -59,12 +58,90 @@
                 </div>
 
                 <div class="terminal-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum dolorem velit magnam aut, nesciunt dicta officia excepturi laudantium delectus eligendi doloremque enim illum. Voluptate temporibus earum dolores ipsam ut eum.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum dolorem velit magnam aut, nesciunt dicta officia excepturi laudantium delectus eligendi doloremque enim illum. Voluptate temporibus earum dolores ipsam ut eum. <br/>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt quibusdam molestias dolorem. Tempora molestias inventore velit quasi sint eaque nostrum odio illo aliquam architecto est, ipsa dolorem placeat praesentium error.<br/>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis, minus esse facere reprehenderit at atque eius, doloremque voluptates ea incidunt voluptatibus ratione quae sed corrupti obcaecati, expedita ad sunt quos. <br/>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed cum eaque quos, deleniti libero fuga quaerat repellat adipisci ad perspiciatis cumque animi consequuntur ipsum in nam a culpa minima saepe.
                 </div>
 
                 <div class="terminal-footer"></div>
             </div>
 
+        </section>
+
+        <section class="cours-abonnement">
+            <h1 class="cours-abonnement-legend">Les Cours</h1>
+            <h2 class="cours-abonnement-soustitre">Un abonnement unique</h2>
+        
+            <table class="cours-abonnement-tableau">
+                <tbody>
+                    <tr>
+                        <td>
+
+                            <div class="cours-abonnement-tableau-case">
+                                <img class ="sql" src="./image/MySQL"/>
+                                
+                                <span> Cours</span>
+                                
+                                <div class="cours-abonnement-tableau-text">
+                                    
+                                    <span> Cours</span>
+
+                                    <div class="cours-abonnement-tableau-titre">Maîtriser SQL et MySQL</div>
+                                    <div class="cours-abonnement-tableau-legend">Les bases de données relationnelles sont incontournables pour les devs web !</div>
+                                </div>
+                            </div>
+
+                        </td> 
+
+                        <td>
+                            <div class="cours-abonnement-tableau-case">
+                                <img class="job" src="./image/job"/>
+
+                                <span> Cours</span>
+
+                                <div class="cours-abonnement-tableau-text">
+                                    <div class="cours-abonnement-tableau-titre">Décrochez votre premier job de dev</div>
+                                    <div class="cours-abonnement-tableau-legend">Si vous recherchez un emploi mais que vous n'arrivez pas à vous vendre</div>
+                                </div>
+                            </div>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+
+                            <div class="cours-abonnement-tableau-case">
+                                <img class="git" src="./image/Git.png"/>
+                                
+                                <span> Cours</span>
+
+                                <div class="cours-abonnement-tableau-text">
+                                    <div class="cours-abonnement-tableau-titre">Apprenez Git et Github</div>
+                                    <div class="cours-abonnement-tableau-legend">L'outil indispensable pour gérer son code dans le millieu professionel.</div>
+                                </div>
+                            </div>
+
+                        </td>
+                        <td>
+
+                            <div class="cours-abonnement-tableau-case">
+                                <img class="freelance" src="./image/freelance.png"/>
+                                
+                                <span> Cours</span>
+
+                                <div class="cours-abonnement-tableau-text">
+                                    <div class="cours-abonnement-tableau-titre">Lancez-vous en tant que dev freelance</div>
+                                    <div class="cours-abonnement-tableau-legend">Envie de plus de liberté dans votre métier ?</div>
+                                </div>
+                            </div>
+
+                        </td>
+
+                    </tr>
+
+                </tbody>
+            </table>
         </section>
         
     </main>

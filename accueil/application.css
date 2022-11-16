@@ -1,3 +1,10 @@
+@media screen and (max-width:600px) {
+    .accueil{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
 body{
     margin: 0px;
     background-color: black;
@@ -9,7 +16,7 @@ body{
 header{
     display: flex;
     background-color: rgb(26,26,26);
-    font-weight: bold;
+    font-weight: 700;
 }
 
 header div{
@@ -48,14 +55,26 @@ header div{
 
 main{
     text-align: center;
-    /* width: 50%; */
+}
+
+.accueil{
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h1{
-    font-size: 250%;
+    margin: 0;
+    padding: 20px;
+    font-size: 300%;
+    font-weight: 700;
 }
 
 h2{
+    font-size: 200%;
+}
+
+h3{
     font-size: 200%;
 }
 
@@ -71,7 +90,9 @@ button{
     cursor: pointer;
 }
 
-.cours{
+/* animation flèche */
+
+.cours-terminal{
     padding: 10px;
     background-image: url("image/background-blue.png") ;
     background-size: 10px;
@@ -79,14 +100,17 @@ button{
 
 .terminal{
     background-color: rgb(34,34,34);
-    border-radius: 5px;
+    border-radius: 10px;
     width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
 }
 
 .terminal-header{
     display: flex;
     justify-content: space-between;
-    padding: 5px;
+    padding: 10px;
     color: rgb(160,160,160);
 
 }
@@ -103,8 +127,8 @@ button{
 
 .terminal-button{
     background-color: rgb(160,160,160);
-    width: 5px;
-    height: 5px;
+    width: 3px;
+    height: 3px;
     border-radius: 100%;
     padding:5px;
 }
@@ -112,8 +136,73 @@ button{
 .terminal-text{
     color: rgb(160,160,160);
     background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 3px;
+    font-size: 80%;
+
 }
 
 .terminal-footer{
-    height: 30px;
+    height: 40px;
+}
+
+.cours-abonnement{
+    background-color: white;
+    color: black;
+}
+
+.cours-abonnement-soustitre{
+    font-weight: 100;
+}
+
+.cours-abonnement-tableau{
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 25px;
+}
+
+.cours-abonnement-tableau td{
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px 1px grey
+}
+
+.cours-abonnement-tableau-case{
+    display: flex;
+    position: relative;    
+}
+
+.cours-abonnement-tableau-text{
+    text-align: left;
+    margin-top:auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+
+}
+
+.cours-abonnement-tableau-titre{
+    font-size: 95%;
+    margin-bottom: 5px;
+}
+
+.cours-abonnement-tableau-legend{
+    font-size: 68%;
+}
+
+.cours-abonnement-tableau-case span{
+    position: absolute;
+    top: -20px;
+    left: -3px;
+    font-size: 70%;
+    color: white;
+    background-color: rgb(199, 33, 33);
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border-radius: 15px;
 }
