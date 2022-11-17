@@ -1,0 +1,131 @@
+body{
+    margin: 0px;
+    background-color: black;
+    color: white;
+    font-family: Roboto;
+}
+
+header{
+    background-color: rgb(26,26,26);
+    font-weight: 700;
+    padding: 15px 10px;
+
+    display: flex;
+    align-items: center;
+}
+
+header div{
+    text-align: center;
+    font-size: small;
+}
+
+.nav-list{
+    font-size:large;
+    display: flex;
+    cursor:pointer;
+    list-style: none;
+}
+
+.nav-list li {
+    list-style : none;
+    padding: 0px 30px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: rgb(160,169,168)    ;
+}
+
+.nav-list li a:hover {
+    color: white;
+}
+
+.nav-cours{
+    background-color:rgb(126,217,88);
+    padding: 10px 15px ;
+}
+
+.connexion{
+    height: 40px;
+    width: 100px;
+    border: 0;
+    color: white;
+    background-color: rgb(126,217,88);
+    border-radius: 5px;
+    margin-left: auto;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(160,169,168);
+}
+
+main{
+    text-align: center;
+}
+
+.connexion-popup{
+    height: 100vh;
+    background-color: white;
+
+    padding-top: 20vh;
+}
+
+.connexion-popup-container{
+    width: 100vh;
+    margin: auto;
+    
+    vertical-align: middle;
+    box-shadow: 10px 10px 10px gray;
+
+    color: black;
+}
+
+form{
+    width: 70vh;
+    margin: auto;
+
+
+    display: flex;
+    flex-direction: column;
+
+    font-weight: 600;
+}
+
+#souligne{
+    text-decoration: underline;
+}
+
+form legend{
+    margin: auto;
+}
+
+input{
+    margin-bottom: 20px;
+    height: 40px;
+
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: rgb(137, 137, 137);
+}
+
+#email, #motdepasse{
+    padding-left: 10px;
+    font-size: small;
+
+    color: rgb(137,137,137);
+
+}
+
+#submit{
+    background-color: rgb(137,137,137);
+    color: white;
+}
+
+form p{
+    padding-bottom: 20px;
+    margin: auto;
+    font-size: small;
+    color: rgb(137,137,137);
+}

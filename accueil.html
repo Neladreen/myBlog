@@ -1,13 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
-  <link rel="stylesheet" type="text/css" href="application.css"> 
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="application-accueil.css"> 
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> 
+  <title>Page d'accueil</title>
 </head>
 <body>
     <header>
         <div class="logo-header">
-            <img src="./image/icon-mini.png"/>
+            <img src="./image/icon-mini.png" alt="image logo"/>
             <div>&lt;myBlog&gt;</div>
         </div>
 
@@ -17,7 +19,7 @@
     
                 <li><a href="">Accueil</a></li>
     
-                <li><a class="nav-cours" href="">Cours</a></li>
+                <li><a class="nav-cours">Cours</a></li>
     
                 <li><a>Blog</a></li>
     
@@ -29,7 +31,7 @@
 
     <main>
         <section class="accueil">
-            <img src="./image/icon.png"/>
+            <img src="./image/icon.png" alt="image logo"/>
 
             <h1>&lt;myBlog&gt;</h1>
     
@@ -37,10 +39,10 @@
     
             <h3 style="margin: 20px 0px;">Apprenez la programmation et le métier de dev grâce à nos cours et ressources</h3>
         
-            <button class="button-cours" >Découvrez nos cours  <img src="./image/cartable.png"/></button>
+            <button class="button-cours" >Découvrez nos cours  <img src="./image/cartable.png" alt="image cartable"/></button>
             
             <div class="arrow">
-                <img class= "arrow" src="./image/fleche.png" />
+                <img class= "bounce" src="./image/fleche.png" alt="image flèche"/>
             </div>
         </section>
         
@@ -49,7 +51,7 @@
 
             <div class="terminal">
                 <div class="terminal-header">
-                    <span class="terminal-name"style="color:rgb(230, 229, 229);">Terminal</span>
+                    <span class="terminal-name" style="color:rgb(230, 229, 229);">Terminal</span>
                     <div class="terminal-buttons">
                         <span class="terminal-button"> </span>
                         <span class="terminal-button"> </span>
@@ -78,7 +80,7 @@
                         <td>
 
                             <div class="cours-abonnement-tableau-case">
-                                <img class ="sql" src="./image/MySQL"/>
+                                <img class ="sql" src="./image/MySQL" alt="image sql"/>
                                 
                                 <span> Cours</span>
                                 
@@ -95,7 +97,7 @@
 
                         <td>
                             <div class="cours-abonnement-tableau-case">
-                                <img class="job" src="./image/job"/>
+                                <img class="job" src="./image/job" alt="image job"/>
 
                                 <span> Cours</span>
 
@@ -111,7 +113,7 @@
                         <td>
 
                             <div class="cours-abonnement-tableau-case">
-                                <img class="git" src="./image/Git.png"/>
+                                <img class="git" src="./image/Git.png" alt="image git"/>
                                 
                                 <span> Cours</span>
 
@@ -125,7 +127,7 @@
                         <td>
 
                             <div class="cours-abonnement-tableau-case">
-                                <img class="freelance" src="./image/freelance.png"/>
+                                <img class="freelance" src="./image/freelance.png" alt="image freelance"/>
                                 
                                 <span> Cours</span>
 
@@ -152,28 +154,28 @@
         
             <div class="ressources-list">
                 <div class="ressources-newsletter">
-                    <img src="./image/enveloppe-ouverte.png" />
+                    <img src="./image/enveloppe-ouverte.png" alt="image newsletter"/>
                 
                     <div class="ressources-vignettes-titre">Newsletter ></div>
                     <div class="ressources-vignettes-soustitre">Toutes les semaines</div>
                 </div>
                 
                 <div class="ressources-blog">
-                    <img src="./image/application.png" />
+                    <img src="./image/application.png" alt="image blog"/>
 
                     <div class="ressources-vignettes-titre">Blog ></div>
                     <div class="ressources-vignettes-soustitre">350+ articles</div>
                 </div>
 
                 <div class="ressources-podcasts">
-                    <img src="./image/micro.png" />
+                    <img src="./image/micro.png" alt="image podcasts"/>
 
                     <div class="ressources-vignettes-titre">Podcasts ></div>
                     <div class="ressources-vignettes-soustitre">30+ épisodes</div>
                 </div>
 
                 <div class="ressources-videos">
-                    <img src="./image/video.png" />
+                    <img src="./image/video.png" alt="image vidéos"/>
 
                     <div class="ressources-vignettes-titre">Vidéos ></div>
                     <div class="ressources-vignettes-soustitre">Découvrez Codeflix</div>
@@ -184,13 +186,13 @@
         <section class="blog">
             <h1 class="blog-titre">Le Blog</h1>
 
-            <img src="./image/application.png" style="margin: 20px ;" />
+            <img src="./image/application.png" style="margin: 20px ;" alt="image blog"/>
 
             <div class="blog-text">
                 <p>Découvrir de nouveaux sujets, de nouvelles technologies, mettre en place une veille et <b>s'améliorer de jour en jour ne devrait être ni compliqué, ni payant.</b></p>
                 <p>Voilà pourquoi <b>notre blog est mis à jour chaque semaine !</b></p>    
 
-                <button class="button-blog" >Lire le blog <img src="./image/des-lunettes-de-soleil.png"/></button>
+                <button class="button-blog" >Lire le blog <img src="./image/des-lunettes-de-soleil.png" alt="image lunettes de soleil"/></button>
 
                 <div class="button-blog-legend">+ de 12 000 lecteurs/mois</div>
 
@@ -202,7 +204,7 @@
 
     <footer>
         <div class="logo-footer">
-            <img src="./image/icon-mini.png"/>
+            <img src="./image/icon-mini.png" alt="image logo"/>
             <p>&lt;myBlog&gt;</p>
         </div>
 
@@ -222,10 +224,19 @@
         
         <div class="footer-lien">
             <div class="footer-reseaux">
-                <img src="./image/youtube.png"/>
-                <img src="./image/twitter.png"/>
-                <img src="./image/linkedin.png"/>
-                <img src="./image/twitch.png"/>
+                <img src="./image/youtube.png" alt="image logo youtube"/>
+                <img src="./image/twitter.png" alt="image logo twitter"/>
+                <img src="./image/linkedin.png" alt="image logo linkedin"/>
+                <img src="./image/twitch.png" alt="image logo twitch"/>
+            </div>
+
+            <div class="footer-newsletter footer-text">
+                <p>S'abonner à la newsletter</p>
+
+                <form>
+                    <input class="footer-newsletter-email" type="email">
+                    <input class= "footer-newsletter-sinscrire" type="submit" value="S'inscrire">
+                </form>
             </div>
         </div>
 
