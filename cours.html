@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <link rel="stylesheet" type="text/css" href="application-accueil.css"> 
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> 
-  <title>Page d'accueil</title>
+  <title>Page cours</title>
 </head>
 <body>
     <header>
@@ -13,7 +13,7 @@
             <div>&lt;myBlog&gt;</div>
         </div>
 
-        <nav class="navbar backroundGrey">
+        <nav class="navbar-cours">
             <ul class="nav-list">    
                 <li><a class="nav-cours">Cours</a></li>
             </ul>
@@ -24,21 +24,90 @@
     
 
     <main>
-        <section class="accueil">
-            <div class="accueil-text">
+        <section class="accueil-cours">
+            <div class="accueil-cours-text">
                 <h1>Nos cours complets</h1>
                 <p>Montez en compétence, développez une expertise et faites oasser votre profile de dev de zéro à héro(ine) !</p>
             
-                <p class="accueil-text-bloc">J'accéde aux cours (19,99€*/mois)</p>
+                <p class="accueil-cours-text-bloc">J'accéde aux cours (19,99€*/mois)</p>
             </div>
 
             <div class="accueil-abonnement">
-                <img src="./image/checklist.png" alt="image checklist">
-
-                <div class="accueil-abonnement-text">
-                    
-                </div>
+                <img class="accueil-abonnement" src="./image/coupdepouce.png" alt="image checklist">
+            
             </div>
+
+        </section>
+
+        <section class="cours-disponibles">
+            <h1>Nos cours disponibles</h1>
+            
+            <a class="accueil-cours-text-bloc" style="font-size:small;">J'accéde aux cours (19,99€*/mois)</a>
+
+            <div class="cours-disponibles-visuel premier-rang">
+
+                <div class="cours-disponibles-vignettes">
+                    <img src="./image/SQL.png" alt="image sql">
+                    <div class="cours-disponibles-vignettes-titre">SQL et MySQL</div>
+                    <div class="cours-disponibles-vignettes-soustitre">
+                        <p>Base de données</p>
+                        <p>Apprenez tout ce qu'il y a à savoir sur les bases de données relationnelles</p>
+                    </div>
+
+                    <a class="accueil-cours-text-bloc" style="font-size:small;">Voir le cours</a>
+                </div>
+
+                <div class="cours-disponibles-vignettes"></divclass>
+                    <img src="./image/JOB.png" alt="image job">
+                    <div class="cours-disponibles-vignettes-titre">Décrochez votre premier job de dev</div>
+                    <div class="cours-disponibles-vignettes-soustitre">
+                        <p>Recrutement</p>
+                        <p>Pour ne plus chercher un emploi, mais le trouver !</p>
+                    </div>
+
+                    <a class="accueil-cours-text-bloc" style="font-size:small;">Voir le cours</a>
+                </div>
+
+                <div class="cours-disponibles-vignettes"></divclass>
+                    <img src="./image/GIT.png" alt="image git">
+                    <div class="cours-disponibles-vignettes-titre">Git et Github</div>
+                    <div class="cours-disponibles-vignettes-soustitre">
+                        <p>Gestion de code</p>
+                        <p>Maîtrisez les outils indispensables pour votre code</p>
+                    </div>
+
+                    <a class="accueil-cours-text-bloc" style="font-size:small;">Voir le cours</a>
+                </div>
+
+            </div>
+            <div class="cours-disponibles-visuel deuxieme-rang">
+
+                <div class="cours-disponibles-vignettes"></divclass>
+                    <img src="./image/DEV.png" alt="image dev">
+                    <div class="cours-disponibles-vignettes-titre">Lancez-vous en freelance</div>
+                    <div class="cours-disponibles-vignettes-soustitre">
+                        <p>Entreprenariat</p>
+                        <p>Pour tous les développeurs qui veulent prendre leur envol !</p>
+                    </div>
+
+                    <a class="accueil-cours-text-bloc" style="font-size:small;">Voir le cours</a>
+                </div>
+
+                <div class="cours-disponibles-vignettes"></divclass>
+                    <img src="./image/ANGLAIS.png" alt="image anglais">
+                    <div class="cours-disponibles-vignettes-titre">Améliorez votre anglais</div>
+                    <div class="cours-disponibles-vignettes-soustitre">
+                        <p>Opportunités</p>
+                        <p>Toutes les astuces pour s'améliorer en 5 mnutes par jours</p>
+                    </div>
+
+                    <a class="accueil-cours-text-bloc" style="font-size:small;">Voir le cours</a>
+                </div>
+
+            </div>
+
+            <h3 class="cours-selectionnés">Nombre de cours séléctionnés : <span class="nombre-cours-selectionnés">0</span></h3>
+            <h3 class="supprimer-cours-selectionnés">Supprimer la sélection RAJOUTER IMAGE POUBELLE</h3>
 
         </section>
 
