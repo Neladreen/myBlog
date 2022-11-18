@@ -510,7 +510,7 @@ form p{
 .cours-disponibles-visuel img{
     height: auto;
     width: 200px;
-    border-radius: 10px 10px 0 0;
+    border-radius: 8px 8px 0 0;
 }
 
 .cours-disponibles-vignettes{
@@ -519,6 +519,11 @@ form p{
     border-radius: 10px;
     border: solid rgb(138, 138, 138) 1px;
     box-shadow: 10px 10px 10px grey;
+    background-color: white;
+}
+
+.cours-disponibles-vignettes :hover{
+    cursor: pointer;
 }
 
 
@@ -530,4 +535,8 @@ form p{
 .cours-disponibles-vignettes-soustitre{
     font-size: 68%;
     color : rgb(95, 95, 95) ;
+}
+
+.selected{
+    border: solid black 4px;
 }
