@@ -307,10 +307,22 @@ p{
 }
 
 .slider {
-    margin: 50px;
+    margin: auto;
+    position: relative;
+    display: flex;
+    align-items: center ;
+    justify-content: center;
   }
 
-.slider_img {
+#precedent,  #suivant {
+    cursor: pointer;
+    font-size: 100px;
+    padding: 10px;
+}
+
+
+
+#slide{
     margin: 0 15px;
 }
 
@@ -510,7 +522,7 @@ form p{
 .cours-disponibles-visuel img{
     height: auto;
     width: 200px;
-    border-radius: 8px 8px 0 0;
+    /* border-radius: 8px 8px 0 0; */
 }
 
 .cours-disponibles-vignettes{
@@ -520,6 +532,7 @@ form p{
     border: solid rgb(138, 138, 138) 1px;
     box-shadow: 10px 10px 10px grey;
     background-color: white;
+    overflow: hidden;
 }
 
 .cours-disponibles-vignettes :hover{
@@ -539,4 +552,9 @@ form p{
 
 .selected{
     border: solid black 4px;
+}
+
+#poubelle {
+    width: 30px;
+    height: auto;
 }
